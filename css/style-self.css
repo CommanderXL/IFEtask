@@ -1,0 +1,241 @@
+body,ul,li,div,p,h2,h3,input,form,b{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+a:link,a:hover,a:visited,a:active{
+    color: antiquewhite;
+    text-decoration: none;
+}
+body{
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+section,article{
+    display: block;
+}
+
+.header{
+    max-width: 1920px;
+    background-color: darkmagenta;
+    color: antiquewhite;
+}
+.wrap{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+}
+.mylogo{
+    float: left;
+    margin-top: 31px;
+    font-size: 20px;
+}
+.sideBarIcon{
+    display: block;
+    width: 30px;
+    height: 34px;
+    background: url("../img/icon-github.png") no-repeat 0 0;
+    float: right;
+    margin-top: 26px;
+}
+.nav{
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+.nav ul{
+    font-size: 0;
+}
+.nav ul li{
+    font-size: 13px;
+    display: inline-block;
+}
+.nav-item{
+    padding: 2px 10px;
+}
+article{
+    width: 100%;
+    padding-top:100px;
+    height: 800px;
+    background-color: antiquewhite;
+}
+article .wrap{
+    height: 1200px;
+    border: 1px solid #e3e3e3;
+    background-color: beige;
+    position: relative;
+}
+article .wrap .center{
+    width: 10px;
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 485px;
+    background-color: antiquewhite;
+}
+article .header-port{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    left: 415px;
+    border-radius: 75px;
+    background-color: antiquewhite;
+}
+article .self-portrait{
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    top: -60px;
+    left: 430px;
+    background: url("../img/self.jpg") no-repeat -23px 0;
+    background-size: 160px ;
+}
+.small-icon{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    left: 440px;
+}
+.bgIcon{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    position: absolute;
+    left: 430px;
+    background-color: antiquewhite;
+}
+.bgIcon.bgIcon-one{
+    top: 230px;  
+}
+.bgIcon.bgIcon-two{
+    top: 500px;
+}
+.bgIcon.bgIcon-three{
+    top:890px;
+}
+.small-icon.icon-one{
+    top: 240px;
+    background: url("../img/gallery-one.jpg") no-repeat 0 2px;
+    background-size: 143px;
+}
+.small-icon.icon-two{
+    top: 510px;
+    background:url("../img/gallery-two.jpg") no-repeat -40px -1px;
+    background-size: 143px;
+}
+.small-icon.icon-three{
+    top: 900px;
+    background: url("../img/gallery-three.jpg") no-repeat 0 -9px;
+    background-size: 140px;
+}
+.sharp-small{
+    position: absolute;
+    width: 80px;
+    height: 36px;
+    left: 450px;
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{
+    height: 1px;
+    font-size: 1px;
+    overflow: hidden;
+    display: block;
+    background-color:beige;
+}
+.b2,.b3,.b4,.b5,.b6,.b7{
+    border-left: 1px solid ;
+    border-right: 1px solid;
+}
+.b1,.b8{
+    margin: 0 5px;
+}
+.b1{
+    border-bottom: 1px solid;
+}
+.b8{
+    border-top: 1px solid;
+}
+.b2,.b7{
+    margin: 0 3px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.b3,.b6{
+    margin: 0 2px;
+
+}
+.b4,.b5{
+    margin: 0 1px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    height: 2px;
+}
+.sharp-content{
+    height: 20px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    overflow: hidden;
+    line-height: 20px;
+    text-align: center;
+    background-color:beige;
+}
+.sharp-small.small-one{
+    top:650px;
+}
+.sharp-small.small-two{
+    top: 720px;
+}
+.sharp-small.small-three{
+    top: 790px;
+}
+.sharp-small.small-four{
+    top: 1030px;
+}
+.sharp-small.small-five{
+    top:1100px;
+}
+
+.character{
+    position: absolute;
+    width: 640px;
+    left:25%;
+}
+.character .bItem{
+    float: left;
+    font-size: 20px;
+}
+.character .character-content{
+    font-size: 16px;
+    float: right;
+    line-height: 1.6;
+    width: 320px;
+}
+.contact-content p{
+    margin-bottom: 15px;
+}
+.self-name{
+    top: 110px;
+}
+.contact{
+    top: 390px;
+}
+.education{
+    top: 620px;
+}
+.education .edu-one{
+    margin-top: 32px;
+}
+.education .edu-two{
+    margin-top: 44px
+}
+.education .edu-three{
+    margin-top: 24px;
+}
+

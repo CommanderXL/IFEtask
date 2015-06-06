@@ -1,0 +1,276 @@
+body,ul,li,div,p,h2,h3,input,form{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+a:link,a:hover,a:visited,a:active{
+    color: antiquewhite;
+    text-decoration: none;
+}
+body{
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+section,article{
+    display: block;
+}
+.header{
+    max-width: 1920px;
+    background-color: darkmagenta;
+    color: antiquewhite;
+}
+.wrap{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+}
+.mylogo{
+    float: left;
+    margin-top: 31px;
+    font-size: 20px;
+}
+.sideBarIcon{
+    display: block;
+    width: 30px;
+    height: 34px;
+    background: url("../img/icon-github.png") no-repeat 0 0;
+    float: right;
+    margin-top: 26px;
+}
+.nav{
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+.nav ul{
+    font-size: 0;
+}
+.nav ul li{
+    font-size: 13px;
+    display: inline-block;
+}
+.nav-item{
+    padding: 2px 10px;
+}
+.center{
+    background-color: bisque;
+    width: 100%;
+    overflow: hidden;
+}
+.center-wrap{
+    margin-top: 20px;
+}
+.main{
+    width: 70%;
+    float: left;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.article{
+    background-color: azure;
+    height: 350px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.tips{
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    z-index: 999;
+    left: -62px;
+}
+.tipsOne{
+   
+}
+.tipsTwo{
+    
+}
+.tipsThree{
+    
+}
+.tips ul li{
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.tips .tip-one{
+    background-color:darkmagenta;
+    color:antiquewhite;
+}
+.tips .tip-two{
+    background-color: violet;
+    color: antiquewhite;
+}
+.main-content{
+    margin-top: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.main-content .title{
+    color: violet;
+    font-size: 16px;
+}
+.main-content .sub-title{
+    margin-top: 10px;
+    color: #666;
+    font-size: 12px;
+}
+.article-content p{
+    margin-top: 10px;
+    text-indent: 2em;
+}
+p.publish{
+    color: darkgrey;
+    text-align: right;
+    margin-top: 10px;
+}
+.pagation{
+    
+}
+.pagation:before,.pagation:after{
+    display: table;
+    content: " ";
+}
+.pagation:after{
+    clear: both;
+}
+.pagation ul {
+    font-size: 0;
+    width: 550px;
+    margin: 0 auto;
+}
+.pagation ul li{
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    background-color: azure;
+    margin-right: 10px;
+}
+.pagation ul li.num-three{
+    background-color: darkorchid;
+    color: aliceblue;
+}
+
+.sideBar{
+    width: 28%;
+    height: 800px;
+    float: right;
+    border: 1px solid #000;
+}
+.sideBar .nav-search{
+    height: 80px;
+    border: 1px solid #e3e3e3;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+form#search_form{
+    width: 216px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.search-content #id-query{
+    width: 216px;
+    height: 30px;
+    text-indent: 1em;   
+    border: none;
+}
+.search-content .inp{
+    float: left;
+}
+.search-content .inp-btn {
+    position: absolute;
+    right: 0;    
+}
+.search-content .inp-btn input{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 26px;
+    cursor: pointer;
+}
+
+.subBar-nav{
+    background-color: aliceblue;
+}
+.subBar-nav ul li{
+    overflow: hidden;
+    border-top: 1px solid #e3e3e3;
+}
+.subBar-nav ul li div.highlight{
+    float: right;
+    width: 98%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 1em;
+    color: black;
+}
+.subBar-nav ul li div.highlight-tag{
+    float: left;
+    width: 2%;
+    height: 40px;
+    background-color:darksalmon;
+}
+.subBar-nav ul li a:hover div.highlight-tag{
+    background-color: aqua;
+}
+.calendar{
+    background-color: aliceblue;
+}
+.calendar-content{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calendar-content .left-tag{
+    display: block;
+    float: left;
+}
+.calendar-content .right-tag{
+    display: block;
+    float: right;
+}
+.year-month p{
+    overflow: hidden;
+    text-align: center;
+}
+.calendar .someDay{
+    margin-top: 12px;
+}
+.calendar .someDay ul{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.calendar .someDay ul li{
+    width: 14.2%;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+}
+div.tagBar{
+    margin-top: 10px;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+div.tagBar #tag{
+    height: 25px;
+    line-height: 25px;
+    text-indent: 1em;
+}
+div.tagBar .tagCloud{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
